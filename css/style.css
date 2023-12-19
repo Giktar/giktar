@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Carlito&family=Montserrat:wght@300&display=swap');
+
 /* <!-- NAV-HEADER --> */
 * {
     margin: 0;
@@ -67,6 +69,7 @@ ul, li, a {
 .wg-center {
     display: flex;
     justify-content: center;
+    margin: 10px;
 }
 
 .wg-img img {
@@ -97,6 +100,10 @@ ul, li, a {
     display: flex;
     align-items: center;
     flex-direction: column-reverse;
+}
+
+.wot a {
+    padding: 10px 0px;
 }
 
 /* <!-- SECTION THIRD --> */
@@ -155,12 +162,17 @@ input[type=submit] {
     padding: 20px;
 }
 
+input[type=submit]:hover {
+    background-color: gray;
+    color: black;
+}
+
 input {
     background-color: gainsboro;
     color: black;
     border: none;
     padding: 10px;
-    box-shadow: 10px 10px 8px #888888;
+    box-shadow: 8px 8px 5px #888888;
 }
 
 /* <!-- FOOTER  --> */
