@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+}
+
+.header {
+    background-color: black;
+    padding: 30px;
+    position: sticky;
+    top: 0;
+}
+
+.nav, ul, li{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+ul, li, a {
+    color: white;
+    text-decoration: none;
+}
