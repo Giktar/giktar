@@ -49,6 +49,98 @@ ul, li, a {
     font-size: 50px;
 }
 
+@media screen and (max-width: 508px) {
+    .title-text {
+        background-color: azure;
+        text-align: center;
+        max-width: 450px;
+        width: 100%;
+        opacity: 0.6;
+        gap: 10px;
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 455px) {
+    .title-text {
+        background-color: azure;
+        text-align: center;
+        max-width: 350px;
+        width: 100%;
+        opacity: 0.6;
+        gap: 10px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 417px) {
+    .title-text {
+        background-color: azure;
+        text-align: center;
+        max-width: 350px;
+        width: 100%;
+        opacity: 0.6;
+        gap: 10px;
+        font-size: 20px;
+    }
+
+    .table {
+        width: 100%;
+        padding: 20px;
+    }
+
+    footer {
+        width: 100%;
+        font-size: 10px;
+    }
+
+   
+}
+
+@media screen and (max-width:518px) {
+    .wg-center {
+        margin: 5px 30px;
+    }
+}
+
+@media screen and (max-width:428px) {
+    .wg-center {
+        margin: 5px 10px;
+    }
+
+    footer {
+        width: 100%;
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width:388px) {
+    .wg-center {
+        margin: 0px 5px;
+    }
+}
+
+@media screen and (max-width:378px) {
+    .wg-center {
+        margin: 0px 3px;
+    }
+}
+
+@media screen and (min-width:410) {
+    input {
+        background-color: gainsboro;
+        color: black;
+        border: none;
+        padding: 8px;
+        box-shadow: 8px 8px 5px #888888;
+    }
+
+    .form input {
+        margin: 3px;
+    }
+}
+
+
 .title {
     display: flex;
     justify-content: center;
@@ -69,7 +161,6 @@ ul, li, a {
 .wg-center {
     display: flex;
     justify-content: center;
-    margin: 10px;
 }
 
 .wg-img img {
@@ -145,6 +236,7 @@ table img {
 /* <!-- SECTION FORM --> */
 
 form {
+    width: 100%;
     display: flex;
     height: 100%;
     max-height: 500px;
