@@ -12,8 +12,6 @@
 .header {
     background-color: black;
     padding: 30px;
-    position: sticky;
-    top: 0;
 }
 
 .nav, ul, li{
@@ -42,9 +40,7 @@ ul, li, a {
 
 .title-text {
     background-color: azure;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
     max-width: 500px;
     width: 100%;
     opacity: 0.6;
@@ -65,34 +61,75 @@ ul, li, a {
 
 /* SECTIONS SECOND */ 
 
+.wg {
+    width: 100%;
+}
 
 .wg-center {
     display: flex;
     justify-content: center;
 }
 
-.wg-img, img {
-    width: 300px;
+.wg-img img {
+    width: 100%;
+    max-width: 200px;
     gap: 10px;
 }
 
 .wg-img {
     display: flex;
-    justify-content: center;
     gap: 100px;
 }
 
-.wg-img, img, a {
-    display: flex;
-    justify-content: center;
+.wg-img img a {
+    text-align: center;
     font-size: 30px;
     padding-top: 10px;
 }
 
 .wg-question {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
     padding-top: 10px;
     font-size: 20px;
+}
+
+.wot {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+
+/* <!-- SECTION THIRD --> */
+
+.section-third {
+    background-color: black;
+    padding: 40px 0px;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table, tr, td {
+    border: solid white 1px;
+    color: white;
+    text-align: center;
+}
+
+table {
+    max-width: 400px;
+    width: 100%;
+}
+
+table img {
+    width: 30px;
+    display: inline;
+}
+
+.title-table {
+    color: white;
+    text-align: center;
+    padding: 10px 0px;
 }
