@@ -1,3 +1,4 @@
+/* <!-- NAV-HEADER --> */
 * {
     margin: 0;
     padding: 0;
@@ -25,4 +26,39 @@
 ul, li, a {
     color: white;
     text-decoration: none;
+}
+
+/* SECTIONS FIRST */
+
+.section-first {
+    background-image: url(https://celes.club/uploads/posts/2022-05/1652522932_5-celes-club-p-vot-blits-art-krasivo-6.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    z-index: 1;
+    height: 500px;
+}
+
+.title-text {
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    width: 100%;
+    opacity: 0.6;
+    gap: 10px;
+    font-size: 50px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+}
+
+.title-text h1 {
+    color: brown;
+    
 }
