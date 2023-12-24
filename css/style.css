@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+*ul {
+    list-style-type: none;
+}
+
 /* <!-- ABOUT ME WARGAMING  --> */
 
 .about {
@@ -79,7 +83,7 @@
 
 table {
     position: relative;
-    top: 150px;
+    top: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -100,3 +104,58 @@ tr, td {
 tr:nth-child(even) {
     background-color: #131313;
   }
+
+/* <!-- FOOTER --> */
+
+.footer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    background-color: black;
+}
+
+.links {
+    width: 100%;
+}
+
+.links-ul {
+    display: flex;
+    justify-content: center;
+}
+
+.links ul li {
+    width: 200px;
+    padding: 15px;
+}
+
+.links ul li a {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.links ul{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+hr {
+    color: #D7CAB9;
+   
+}
+
+.author {
+    margin: 40px 0px;
+}
+
+.author ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.author ul li a {
+    color: #D7CAB9;
+}
