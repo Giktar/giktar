@@ -52,6 +52,10 @@
     padding: 15px 40px;
 }
 
+.install:hover {
+    background-color: rgb(120, 13, 13);
+    color: beige;
+}
 
 @media (min-width:375px) and (max-width:600px) {
    .about {
@@ -233,7 +237,7 @@ tr:nth-child(even) {
     justify-content: center;
     width: 150px;
     padding: 10px;
-}
+} 
 
 @media (min-width:500px) and (max-width:800px) {
     .footer {
@@ -296,6 +300,10 @@ hr {
 
 .author ul li a {
     color: #D7CAB9;
+}
+
+.author a:hover {
+    color: white;
 }
 
 @media (min-width:1000px) and (max-width:1100px) {
