@@ -3,108 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wargaming</title>
+    <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+<style>
+    .header {
+        height: 60px;
+        background-color: black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px;
+    }
+
+    ul li {
+        list-style-type: none;
+    
+    }
+
+    .head-left ul{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .head-left ul li a img {
+        width: 50px;
+    }
+
+    * a {
+        text-decoration: none;
+        color: #fff;
+    }
+</style>
 <body>
-    <!-- NAV-HEADER -->
     <header class="header">
-        <nav class="nav">
-            <ul class="flex">
-                <li><a href="#">Profile</a></li>
-                <li><a href="#">WG</a></li>
-                <li><a href="#">Static</a></li>
-                <li><a href="#">Authors</a></li>
-            </ul>
+        <div class="head-left">
             <ul>
-                <li><a href="#">Log in/Sing up</a></li>
+                <li><a href="#"><img src="https://yt3.googleusercontent.com/ytc/APkrFKbH3qP52M8sWJCyC5z_RLk6_e50u_r1gTIsKrX6=s900-c-k-c0x00ffffff-no-rj" alt=""></a></li>
+                <li><a style="color: rgb(120, 120, 9);" href="#">Премиум Магазин</a></li>
+                <li><a href="#">Центр Поддержки</a></li>
             </ul>
-        </nav>
+        </div>
+        <div class="head-rigth">
+            <a href="#">Войти <span style="color: gray;">или</span> создать аккаунт</a>
+        </div>
     </header>
 
-    <!-- /* SECTIONS FIRST */ -->
-    <section class="section-first">
-        <div class="title">
-            <main class="title-text">
-                <h1>WARGAMING</h1>
-                <h4>ДОНАТ РЕШАЕТ</h4>
-            </main>
-        </div>
-    </section>
-
-    <!-- /* SECTIONS SECOND */  -->
-    <section class="section-second">
-        <main class="wg">
-            <div class="wg-question">
-                <h2>На чей стороне ты?</h2>
-            </div>
-            <div class="wg-center">
-                <div class="wg-img">
-                    <div class="wot">
-                        <a target="_blank" style="color: black;" href="https://lesta.ru/ru">Tanks Blitz</a>
-                        <img src="https://yt3.googleusercontent.com/ROPPJXnR8cPplOpRGbPBu8Pc6N5uVpPsvZXo4yJ9VuPeUJyErQ6_JAa78qjsN94sa44gmqk2AA=s900-c-k-c0x00ffffff-no-rj" alt="">
-                    </div>
-                    <div class="wot">
-                        <a target="_blank" style="color: black;" href="https://eu.wargaming.net/en">World of Tanks Blitz</a>
-                        <img src="https://sun6-22.userapi.com/s/v1/ig1/Rxrc0-XYLZ0Z_DrhusvlqO1unBvAUT_wFAvpKGlDzArmvMX98rg0NX2vRrmBZtsJWwZQhSNI.jpg?size=898x898&quality=96&crop=1,0,898,898&ava=1" alt="">
-                    </div>
-                    
-                </div>
-            </div>
-        </main>
-    </section>
-
-    <!-- SECTION THIRD -->
-    <section class="section-third">
-        <main>
-            <div class="title-table">
-                <h2>Static Online Servers <span><a target="_blank" style="color: darkcyan;" href="https://wgstatus.com/wot">WoT Blitz</a></span></h2>
-            </div>
-            <div class="table">
-                <table>
-                    <tr>
-                        <td><img src="https://cdn-icons-png.flaticon.com/512/330/330437.png" alt="">RU</td>
-                        <td>215.033</td>
-                    </tr>
-                    <tr>
-                        <td><img src="https://cdn-icons-png.flaticon.com/512/330/330426.png" alt="">EU</td>
-                        <td>102.224</td>
-                    </tr>
-                    <tr>
-                        <td><img src="https://cdn-icons-png.flaticon.com/512/330/330459.png" alt="">NA</td>
-                        <td>5.221</td>
-                    </tr>
-                </table>
-            </div>
-        </main>
-    </section>
-
-    <!-- SECTION FORM -->
-    <section class="forms">
-        <form action="">
-            <div class="form">
-                <h4>Sing up</h4> <br>
-                <input type="text" placeholder="Username"> <br>
-                <input type="email" placeholder="Email"> <br>
-                <input type="password" placeholder="Password"> <br>
-                <input type="submit" value="Get Started">
-            </div>
-        </form>
-    </section>
-
-    <!-- FOOTER  -->
-    <footer>
-        <div class="footer">
-            <a target="_blank" style="color: white;" href="https://eu.wargaming.net/en"><h1>Wargaming</h1></a>
-        </div>
-        <div class="footer">
-            <img src="https://yt3.googleusercontent.com/ROPPJXnR8cPplOpRGbPBu8Pc6N5uVpPsvZXo4yJ9VuPeUJyErQ6_JAa78qjsN94sa44gmqk2AA=s900-c-k-c0x00ffffff-no-rj" alt="">
-            <a target="_blank" href="https://lesta.ru/ru"> <span style="color: cadetblue;">Lesta</span> RU game</a>
-        </div>
-        <div class="footer">
-            <img src="https://sun6-22.userapi.com/s/v1/ig1/Rxrc0-XYLZ0Z_DrhusvlqO1unBvAUT_wFAvpKGlDzArmvMX98rg0NX2vRrmBZtsJWwZQhSNI.jpg?size=898x898&quality=96&crop=1,0,898,898&ava=1" alt="">
-            <a target="_blank" href="https://eu.wargaming.net/en"><span style="color: brown;">WoT EU</span> game</a>
-        </div>
-    </footer>
 </body>
 </html>
