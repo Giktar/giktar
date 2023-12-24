@@ -15,6 +15,7 @@
 }
 
 .about-title {
+    width: 400px;
     position: relative;
     top: 150px;
     left: 100px;
@@ -22,13 +23,12 @@
 
 .info {
     color: white;
-    width: 100%;
-    max-width: 400px;
 }
 
 .info h1 {
     position: relative;
-    bottom: 20px;
+    bottom: 40px;
+    font-size: 30px;
 }
 
 .welcom {
@@ -38,12 +38,35 @@
 
 .install {
     position: relative;
-    top: 50px;
+    top: 60px;
     background-color: red;
     color: white;
     text-align: center;
-    font-size: 25px;
-    width: 100%;
+    font-size: 20px;
     max-width: 200px;
     padding: 15px 40px;
 }
+
+
+@media (min-width:375px) and (max-width:600px) {
+   .about {
+    height: 500px;
+   }
+   
+    .about-title {
+        position: relative;
+        left: 10px;
+        width: 95%;
+    }
+    
+    .install {
+        max-width: 100%;
+    }
+
+    .info h1 {
+        width: 100%;
+    }
+
+}
+
+/* <!-- SYSTEM REQUIREMENTS --> */
