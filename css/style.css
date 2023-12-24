@@ -3,3 +3,47 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* <!-- ABOUT ME WARGAMING  --> */
+
+.about {
+    background-image: url(https://wgsw-eu.gcdn.co/wgsw_media/images/gamepages/wgc/wgc_up_1920_1080-min.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 750px;
+}
+
+.about-title {
+    position: relative;
+    top: 150px;
+    left: 100px;
+}
+
+.info {
+    color: white;
+    width: 100%;
+    max-width: 400px;
+}
+
+.info h1 {
+    position: relative;
+    bottom: 20px;
+}
+
+.welcom {
+    position: relative;
+    top: 20px;
+}
+
+.install {
+    position: relative;
+    top: 50px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    width: 100%;
+    max-width: 200px;
+    padding: 15px 40px;
+}
